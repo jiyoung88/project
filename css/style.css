@@ -1,0 +1,192 @@
+/* 전체 페이지 스타일 */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E3F2FD; 
+  color: #333;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #90CAF9; 
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* 내비게이션 */
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  padding: 15px 10px;
+}
+
+nav ul li a:hover {
+  color: #1E88E5;
+}
+
+/* 공통 섹션 스타일 */
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+section h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  color: #1E88E5;
+}
+
+.msgSec h1 {
+  color: #4da3e1;
+}
+
+.msgSec p {
+  font-size: medium;
+  font-weight: bolder;
+}
+
+.review-button {
+  display: inline-block;
+  background-color: #4da3e1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.review-button:hover {
+  background-color: #2d83c4;
+}
+
+/* 이미지 스타일 */
+.main-img {
+  width: 350px;
+  float: right;
+  margin: -20px 20px 20px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.adopt-home {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E3F2FD; 
+  color: #333;
+  color: white;
+  text-align: center;
+
+}
+
+.adopt-promo p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.donate-promo p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.volunteer-promo p {
+  font-size: larger;
+  font-weight: bold;
+}
+
+.adopt-button {
+  display: inline-block;
+  background-color: #4da3e1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.adopt-button:hover {
+  background-color: #2d83c4;
+}
+
+.donate-button {
+  display: inline-block;
+  background-color: #4da3e1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.donate-button:hover {
+  background-color: #2d83c4;
+}
+
+.map-button {
+  display: inline-block;
+  background-color: #4da3e1;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.map-button:hover {
+  background-color: #2d83c4;
+}
+
+.volunteer-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.adopt-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.donate-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
